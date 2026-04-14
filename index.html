@@ -7,64 +7,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page">
-      <header class="site-header">
-        <a class="brand" href="#">UNRAVELED</a>
-        <nav class="main-nav" aria-label="Main navigation">
+    <main class="page">
+      <header class="header">
+        <div class="search-pill">
+          <span>SEARCH</span>
+          <img src="https://www.figma.com/api/mcp/asset/2d917dd6-7b52-40d9-8817-518612b59bff" alt="Search icon" />
+        </div>
+        <nav aria-label="Main navigation">
           <a href="#">YARN</a>
           <a href="#">TOOLS</a>
           <a href="#">PATTERNS</a>
           <a href="#">ABOUT US</a>
         </nav>
-        <a class="mini-link" href="#">8 WAYS</a>
+        <div class="header-icons">
+          <img src="https://www.figma.com/api/mcp/asset/35d1289a-56bf-4a77-8cdc-5d634e03fec0" alt="Account" />
+          <img src="https://www.figma.com/api/mcp/asset/58909a8a-3521-4ba8-b3b8-05868c0d25a2" alt="Cart" />
+        </div>
       </header>
 
-      <section class="hero" aria-label="Crafting supplies"></section>
+      <div class="ticker">
+        <p>UNRAVEL A SUSTAINABLE WAY TO CRAFT</p>
+        <p>UNRAVEL A SUSTAINABLE WAY TO CRAFT</p>
+        <p>UNRAVEL A SUSTAINABLE WAY TO CRAFT</p>
+      </div>
+
+      <section class="hero-brand">
+        <img src="https://www.figma.com/api/mcp/asset/d7d71088-df3f-4911-b9a6-6c9f2653ca1b" alt="Unraveled logo" />
+        <p>FOR CRAFTERS WHO CARE</p>
+      </section>
+
+      <img
+        class="hero-image"
+        src="https://www.figma.com/api/mcp/asset/7c3de13b-f104-47be-9fc2-71a65489ff07"
+        alt="Yarn and tools spread"
+      />
 
       <section class="intro">
-        <h1>UNRAVEL A SUSTAINABLE WAY TO CRAFT</h1>
-        <div class="intro-content">
-          <div>
-            <p class="tagline">Shop thoughtfully. Create consciously.</p>
-            <p>
-              Our selection of 100% recycled yarn is made from reclaimed
-              textiles, giving forgotten fibers a second life. Spun into
-              soft, durable wool-like yarn, each skein saves resources and
-              keeps waste out of landfill.
-            </p>
-            <p>
-              By choosing Unraveled yarn, you're not just making beautiful
-              pieces - you're supporting slow fashion, small makers, and a
-              greener future for fashion and fiber.
-            </p>
-            <a class="button" href="#">SHOP NOW --&gt;</a>
-          </div>
-          <div class="image image-stack" role="img" aria-label="Stacked yarn"></div>
+        <p class="intro-copy">
+          Shop thoughtfully. Create consciously. Our collection of 100% recycled yarn is made from reclaimed textiles,
+          giving forgotten fibers a second life. Each skein is carefully unraveled, re-spun, and ready for whatever
+          you dream up next-whether that's something cozy, bold, or entirely unexpected.
+        </p>
+        <a href="#" class="cta">SHOP NOW --&gt;</a>
+      </section>
+
+      <img class="squiggle" src="https://www.figma.com/api/mcp/asset/2ba34f04-b4e1-4526-a071-d7e7023b5d0f" alt="" />
+
+      <section class="subscribe">
+        <img src="https://www.figma.com/api/mcp/asset/407b17e6-8866-4282-b15f-e2f1cdf2f75f" alt="Subscription box" />
+        <div>
+          <h2>SUBSCRIBE!</h2>
+          <p>
+            Sign up for our monthly subscription box and bring new life to your craft. Each delivery includes a yarn of
+            the month made from reclaimed fibers, a thoughtfully selected tool, an exclusive pattern, and curated extras
+            to spark your creativity.
+          </p>
+          <a href="#" class="cta">SHOP NOW --&gt;</a>
         </div>
       </section>
 
-      <section class="subscribe">
-        <div class="image image-box" role="img" aria-label="Subscription box"></div>
-        <div class="subscribe-copy">
-          <h2>SUBSCRIBE NOW!</h2>
-          <p>
-            Sign up for our monthly subscription box and enjoy a little dose of
-            craft-friendly love each month, filled with recycled fibers,
-            exclusive patterns, and curated extras to spark your creativity.
-          </p>
-          <p>
-            It's everything you need to make something meaningful while helping
-            reduce textile waste, one project at a time.
-          </p>
-          <a class="button button-dark" href="#">SHOP NOW --&gt;</a>
-        </div>
+      <section class="mission">
+        <h3>Our mission is simple. Help us to reduce the amount of textile waste in the United States.</h3>
+        <a href="#">Learn how you can help</a>
       </section>
-    </div>
+
+      <section class="newsletter">
+        <h4>Unravel the latest.</h4>
+        <p>Get the latest news and more...</p>
+        <form class="signup" action="#">
+          <input type="email" placeholder="YOUR EMAIL" aria-label="Your email" />
+          <button type="submit">SIGN UP</button>
+        </form>
+        <small>
+          By completing this form, you are signing up to receive our emails and can unsubscribe at any time.
+        </small>
+      </section>
+
+      <footer class="footer">
+        <div>
+          <h5>CUSTOMER CARE</h5>
+          <a href="#">Refund policy</a>
+          <a href="#">Help &amp; Contact Us</a>
+          <a href="#">Shipping &amp; Returns</a>
+        </div>
+        <div>
+          <h5>SHOP</h5>
+          <a href="#">Yarn</a>
+          <a href="#">Tools</a>
+          <a href="#">Patterns</a>
+        </div>
+        <div>
+          <h5>FOLLOW</h5>
+          <a href="#">Insta</a>
+          <a href="#">Facebook</a>
+          <a href="#">X</a>
+        </div>
+        <img class="footer-logo" src="https://www.figma.com/api/mcp/asset/dc27b5d3-4970-4e0a-8b7b-30a6201baecd" alt="Unraveled" />
+      </footer>
+
+      <div class="copyright">© 2025 UNRAVELED | WWW.UNRAVELED.COM</div>
+    </main>
   </body>
 </html>
